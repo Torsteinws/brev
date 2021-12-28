@@ -5,21 +5,30 @@
     src: local('Brittany Signature'), url('fonts/BrittanySignature.otf') format('truetype');
   }
 
+html, body {
+    height: auto;
+}
+
 body {
-    /* background-image: url("background.jpg"); */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/christmas-background-small.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.85),
+                                 rgba(0, 0, 0, 0.5)), 
+                                 url("images/birthday-background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 main {
     font-family: 'Cozy', sans-serif;
-    padding-left: 7%;
-    color: hsl(80, 100%, 95%);
+    color: hsl(46, 100%, 70%);
     font-style: italic;
     text-align: left;
-    padding-top: 30%;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100%;
 }
 
 .signature {
     font-family: 'Brittany Signature', sans-serif;
-    margin-bottom: 500px;
 }
