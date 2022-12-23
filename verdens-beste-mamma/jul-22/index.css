@@ -2,7 +2,7 @@
     font-family: 'Brittany Signature';
     font-style: normal;
     font-weight: normal;
-    src: local('Brittany Signature'), url('fonts/BrittanySignature.otf') format('truetype');
+    src: local('Brittany Signature'), url('../../fonts/BrittanySignature.otf') format('truetype');
   }
 
 html, body {
@@ -12,7 +12,7 @@ html, body {
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.85),
                                  rgba(0, 0, 0, 0.5)), 
-                                 url("images/birthday-background-2.jpg");
+                                 url("../../images/birthday-background-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
