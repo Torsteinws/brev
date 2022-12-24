@@ -12,7 +12,7 @@ html, body {
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.80),
                                  rgba(0, 0, 0, 0.5)), 
-                                 url("../../images/christmas-background-2.png");
+                                 url("../../images/christmas-background/2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
