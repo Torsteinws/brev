@@ -12,7 +12,7 @@ html, body {
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.85),
                                  rgba(0, 0, 0, 0.5)), 
-                                 url("../../images/birthday-background-2.jpg");
+                                 url("../../images/christmas-background-small.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -31,4 +31,8 @@ main {
 
 .signature {
     font-family: 'Brittany Signature', sans-serif;
+    margin-top: 10px;
+}
+.signature:first-of-type {
+    margin-top: 25px;
 }
