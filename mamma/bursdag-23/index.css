@@ -27,6 +27,7 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 100%;
+    max-width: 750px;
 }
 
 .signature {
