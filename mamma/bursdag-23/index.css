@@ -12,7 +12,7 @@ html, body {
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.75),
                                  rgba(0, 0, 0, 0.0)), 
-                                 url("./1.jpeg");
+                                 url("./1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
