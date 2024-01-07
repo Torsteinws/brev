@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Brittany Signature';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brittany Signature'), url('../../fonts/BrittanySignature.otf') format('truetype');
+  }
+
+html, body {
+    height: auto;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 15, 0.80),
+                                 rgba(20, 0, 0, 0.10)), 
+                                 url("./1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+main {
+    font-family: 'Cozy', sans-serif;
+    color: hsl(43, 80%, 70%);
+    font-style: italic;
+    text-align: left;
+    padding-top: 10vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100%;
+    max-width: 750px;
+}
+
+.signature {
+    font-family: 'Brittany Signature', sans-serif;
+    margin-top: 10px;
+}
+.signature:first-of-type {
+    margin-top: 25px;
+}
