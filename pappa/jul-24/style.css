@@ -11,7 +11,7 @@ html, body {
 
 body {
     background: linear-gradient( rgba(0, 0, 0, 0.90),
-                                 rgba(0, 0, 0, 0.0)), 
+                                 rgba(0, 0, 0, 0.2)), 
                                  url("../../images/christmas-background/8.png");
     background-size: cover;
     /* background-repeat: no-repeat; */
