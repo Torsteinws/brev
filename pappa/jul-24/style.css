@@ -34,6 +34,8 @@ main {
 .signature {
     font-family: 'Brittany Signature', sans-serif;
     margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
 }
 .signature:first-of-type {
     margin-top: 25px;
